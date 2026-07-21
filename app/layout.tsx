@@ -14,13 +14,13 @@ const vercettiFont = localFont({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://example.com/'),
-  title: "Mohit Virli ✌️",
-  description: "A frontend developer by profession, a creative at heart.",
-  keywords: "Mohit Virli, Frontend Engineer, React Developer, Three.js, Creative Developer, Web Development, Angular, JavaScript, TypeScript, Portfolio",
-  authors: [{ name: "Mohit Virli" }],
-  creator: "Mohit Virli",
-  publisher: "Mohit Virli",
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://www.axelith.in/'),
+  title: "ABHINAV DASH ✌️",
+  description: "A full-stack engineer by profession, a creative at heart.",
+  keywords: "Abhinav Dash, Full-Stack Engineer, React Developer, Three.js, Creative Developer, Web Development, JavaScript, TypeScript, Portfolio",
+  authors: [{ name: "Abhinav Dash" }],
+  creator: "Abhinav Dash",
+  publisher: "Abhinav Dash",
   formatDetection: {
     email: false,
     address: false,
@@ -37,19 +37,16 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Mohit Virli - Frontend Engineer",
-    description: "Frontend engineer by profession, creative at heart.",
-    siteName: "Mohit Virli's Portfolio",
+    title: "Abhinav Dash - Full-Stack Engineer",
+    description: "Full-stack engineer by profession, creative at heart.",
+    siteName: "Abhinav Dash's Portfolio",
     locale: "en_US",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Mohit Virli - Frontend Engineer",
-    description: "Frontend engineer by profession, creative at heart.",
-  },
-  verification: {
-    google: "GsRYY-ivL0F_VKkfs5KAeToliqz0gCrRAJKKmFkAxBA",
+    title: "Abhinav Dash - Full-Stack Engineer",
+    description: "Full-stack engineer by profession, creative at heart.",
   },
 };
 
